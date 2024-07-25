@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #383b3b;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #180360;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .menu {
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .navbar .menu {
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar a {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+/* Section Styles */
+section {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Education Section */
+.education-section {
+    padding: 14%;
+    color: blueviolet;
+}
+
+/* Typography */
+h1 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px; 
+}
+
+li:before {
+    content: "\2022";
+    font-size: 20px;
+}
+
+/* Image Styles */
+img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    border-radius: 60px;
+    margin-bottom: 70px;
+}
+
+/* About Section */
+.about {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: larger;
+    color: darkblue;
+    background-color: blanchedalmond;
+    padding: 10%;
+    text-align: center;
+}
